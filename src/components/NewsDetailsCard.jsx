@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const NewsDetailsCard = ({news}) => {
     const {title,  thumbnail_url, details} = news;
-    console.log(news);
+    // console.log(news);
     return (
         <div className='space-y-4'>
             <h2 className='font-bold text-xl'>News Details</h2>
